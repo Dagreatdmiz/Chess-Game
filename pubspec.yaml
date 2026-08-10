@@ -1,0 +1,50 @@
+name: chess_master_online
+description: A modern, premium cross-platform multiplayer Chess application built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.1.0
+  glassmorphism: ^3.0.0
+  confetti: ^0.7.0
+  flutter_spinkit: 5.2.0
+  qr_flutter: ^4.1.0
+
+  # Networking & Connectivity
+  socket_io_client: ^2.0.3+1
+  network_info_plus: ^5.0.1
+
+  # Sound & Haptics
+  audioplayers: ^5.2.1
+  vibration: ^1.8.4
+
+  # Utility & Persistence
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
